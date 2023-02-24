@@ -29,6 +29,7 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     'react-hooks/rules-of-hooks': 2, // 检查 Hook 的规则
     'react-hooks/exhaustive-deps': 2, // 检查 effect 的依赖
+    'react/react-in-jsx-scope': 0,
     /**
      * 代码错误
      */
