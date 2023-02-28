@@ -5,6 +5,13 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/SimplelicityRnExample/android/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/SimplelicityRnExample/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/SimplelicityRnExample/android/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/SimplelicityRnExample/ios/SimplelicityRnExample.xcodeproj/project.xcworkspace/xcuserdata" />
+      <excludeFolder url="file://$MODULE_DIR$/SimplelicityRnExample/ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/SimplelicityRnExample/ios/Pods" />
+      <excludeFolder url="file://$MODULE_DIR$/SimplelicityRnExample/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
