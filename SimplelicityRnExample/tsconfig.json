@@ -5,13 +5,15 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
+      "@lib/*": ["src/lib/*"],
       "@locales/*": ["src/locales/*"],
       "@navigation/*": ["src/navigation/*"],
       "@assets/*": ["src/assets/*"],
       "@style/*": ["src/style/*"],
       "@enums/*": ["src/enums/*"],
       "@api/*": ["src/api/*"]
-    }
+    },
+    "types": ["styled-components-react-native"]
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }

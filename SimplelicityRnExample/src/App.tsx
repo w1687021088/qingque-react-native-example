@@ -12,6 +12,7 @@ import {
   TouchableNativeFeedback
 } from 'react-native'
 import React, { type PropsWithChildren, useState } from 'react'
+import CaButton from '@components/ui/CaButton'
 
 // type PageWrapperProps = {}
 
@@ -42,7 +43,7 @@ function PageWrapper({ children }: PropsWithChildren) {
                   <Text style={styles.title}>title</Text>
                   <View style={styles.content}>
                     <Text style={styles.text} selectable ellipsizeMode={'tail'} numberOfLines={2}>
-                      ModalModalModal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal
+                      Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal Modal
                     </Text>
                   </View>
                 </View>
@@ -84,6 +85,7 @@ function PageWrapper({ children }: PropsWithChildren) {
               <Text style={styles.textStyle}>Show Modal</Text>
             </TouchableOpacity>
           </ScrollView>
+          <CaButton type="success" />
         </View>
       </SafeAreaView>
     </>
